@@ -5,23 +5,19 @@ traditional bioinformatics with AI and Deep Learning.
 
 ## Pipeline Overview
 
-Raw Data (500 cells × 2000 genes)
-↓
-Quality Control (filter dead/empty cells)
-↓
-Normalisation (10,000 counts/cell)
-↓
-Feature Selection (588 highly variable genes)
-↓
-PCA + UMAP (dimensionality reduction)
-↓
-Leiden Clustering (unsupervised cell grouping)
-↓
-Marker Gene Analysis (Wilcoxon rank-sum test)
-↓
-Variational Autoencoder (deep learning)
-↓
-Summary Report (9 publication-ready figures)
+## Pipeline Overview
+
+| Step | Process |
+|---|---|
+| 1 | Raw Data (500 cells × 2000 genes) |
+| 2 | Quality Control (filter dead/empty cells) |
+| 3 | Normalisation (10,000 counts/cell) |
+| 4 | Feature Selection (588 highly variable genes) |
+| 5 | PCA + UMAP (dimensionality reduction) |
+| 6 | Leiden Clustering (unsupervised cell grouping) |
+| 7 | Marker Gene Analysis (Wilcoxon rank-sum test) |
+| 8 | Variational Autoencoder (deep learning) |
+| 9 | Summary Report (9 publication-ready figures) |
 
 ## Key Results
 - 500 cells analysed across 3 cell types
