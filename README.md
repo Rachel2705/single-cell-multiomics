@@ -5,8 +5,6 @@ traditional bioinformatics with AI and Deep Learning.
 
 ## Pipeline Overview
 
-## Pipeline Overview
-
 | Step | Process |
 |---|---|
 | 1 | Raw Data (500 cells × 2000 genes) |
